@@ -65,11 +65,12 @@ main{
 /* modal */
   
 .modal {
+    display: none;
     position: fixed;
     top: 0;
-    left: 0;
     bottom: 0;
     right: 0;
+    left: 0;
     margin: auto;
     height: 420px;
     width: 350px;
@@ -120,6 +121,10 @@ main{
     padding: 8px 16px;
     display: flex;
     justify-content: center;
+}
+
+.reverse{
+    flex-direction: row-reverse;
 }
 
 .modal-btn{
